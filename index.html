@@ -4,41 +4,43 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE-edge">
   <meta name="viewport" content="width-device-width, initial-scal=1.0">
-   <title>Platillos Mexicanos</title>
+  <title>Platillos Mexicanos</title>
+  <link rel="stylesheet" href="CSS/estilos.css">
 </head>
-<body style="background-color:rgb(245, 218, 167); font-size:34px;">
+<body>
  <!--Encabezado-->
- <header style="background-color:rgba(255, 255, 255, 0.336); border-radius:12px;">
+ <header class="bloque-fondo">
    <!--Logo y titulo-->
-   <div style="display: flex; align-items: center;">
-     <img src="" alt="Logo de mi pagina">
+   <div class="alineado-centrado">
+     <img id="logo" src="Imagenes.png/imagenes/Logo.png" alt="Logo de mi pagina">
      <h1>Platillos Mexicanos</h1>
    </div>
  </header>
  <!--Contenido principal-->
- <div style="background-color:rgba(255, 255, 255, 0.336); border-radius:12px;">
+ <div id="contenido-principal" class="alineado-centrado">
    <!--Lista de comida-->
-     <ul>
-    <div>
-     <ul>
-       <li>Enchiladas</li>
-       <li>Carnitas</li>
-       <li>Mole</li>
-       <li>Tamales</li>
-       <li>Sopes</li>
-       <li>Tacos</li>
-       <li>Chiles en Nogada</li>
-       <li>Barbacoa</li>
-       <li>Pambazo</li>
-       <li>Esquites</li>
-       <li>Pozole</li>
-     </ul>
+    <div id="comida-lista" class="bloque-fondo">
+     <h3>Comida</h3>
+       <button>Enchiladas</button>
+       <button>Tamales</button>
+       <button>Mole</button>
+       <button>Carnitas</button>
+       <button>Sopes</button>
+       <button>Tacos</button>
+       <button>Chiles en Nogada</button>
+       <button>Barbacoa</button>
+       <button>Pambazo</button>
+       <button>Esquites</button>
+       <button>Pozole</button>
    </div>
    <!--Comida seleccionada-->
-   <div>
-     <img src="" alt="Caja de comida">
+   <di id="comida-seleccionada" class="bloque-fondo">
+     <img src="Imagenes.png/imagenes/Enchiladas.jpg" alt="Caja de comida" height="200px">
      <br>
-     <p>Aqui va la descripción de la comida seleccionada</p>
+     <h2>Enchiladas</h2>
+     <p>
+      Aqui va la descripción de la comida seleccionada
+    </p>
    </div>
  </div>
 </body>
